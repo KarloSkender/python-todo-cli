@@ -1,2 +1,21 @@
-# python-todo-cli
-Simple Python command-line To-Do application that allows users to add, view, and complete tasks.   Includes input validation and task management using lists (active and completed tasks).
+# 📝 Python To-Do CLI App
+
+Simple command-line To-Do application written in Python.
+
+## 🚀 Features
+- Add tasks
+- View tasks
+- Mark tasks as completed
+- Move tasks to completed list
+- Input validation (prevents crashes from invalid input)
+
+## 🧠 How it works
+The program uses two lists:
+- `tasks` → active tasks
+- `done` → completed tasks
+
+Users interact through a simple menu system in the terminal.
+
+## 🖥️ How to run
+```bash
+python todo.py
